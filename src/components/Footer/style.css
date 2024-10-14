@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+  border-top: 1px #fff solid;
+  margin-top: 70px;
+}
+.footer h3 {
+  text-transform: uppercase;
+}
+.footer .footer-social {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer .footer-social .social-icon {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

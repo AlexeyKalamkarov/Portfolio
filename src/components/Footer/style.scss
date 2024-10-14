@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    border-top: 1px #fff solid;
+    // border-bottom: 1px #fff solid;
+    margin-top: 70px;
+    h3{
+        text-transform: uppercase;
+    }
+    .footer-social {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .social-icon {
+            cursor: pointer;
+        }
+    }
+}

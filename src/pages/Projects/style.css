@@ -1,0 +1,37 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 80px;
+}
+.projects .projects-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects .projects-title .projects-subtitle-description {
+  max-width: 392px;
+}
+.projects .projects-title .projects-subtitle-description p {
+  margin-top: 11px;
+}
+.projects .projects-subtitle-more {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-start;
+  width: 100%;
+  overflow: auto;
+  flex-direction: row;
+}
+.projects .projects-subtitle-more .more {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+.projects .projects-subtitle-more .more p {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
