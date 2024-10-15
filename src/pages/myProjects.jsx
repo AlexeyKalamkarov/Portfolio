@@ -4,15 +4,15 @@ import Projects from "../pages/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Project from "./Project/Project";
 
-const Home = () => {
+const MyProjects = () => {
     
     return ( 
         <div className="container">
-            <Banner/>
-            <Projects/>
+            {/* <Banner/> */}
+            {/* <Projects/> */}
+            <Project/>
         </div>
      );
 }
  
-export default Home;
-// export default menuScroll;
+export default MyProjects;

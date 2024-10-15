@@ -21,7 +21,7 @@
                     color: #000;
                     background: #C4C4C4;
                     border-radius: 100px;
-                    padding: 5px;
+                    padding: 2px 8px;
                 }
             }
             .li-prj:hover {
@@ -35,7 +35,7 @@
                 font-size: 1.25rem;
                 list-style-type: none;
             }
-            li:hover {
+            li:hover, li:active {
                 border-radius: 100px;
                 background: #fff;
                 color: #000;

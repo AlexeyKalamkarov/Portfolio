@@ -1,27 +1,27 @@
-import Card1 from '../../images/projects/cards/Card1.png';
-import Card2 from '../../images/projects/cards/Card2.png';
-import Card3 from '../../images/projects/cards/Card3.png';
-import Card4 from '../../images/projects/cards/Card4.png';
+import Card1 from '../../images/projects/cards/Cinema.jpg';
+import Card2 from '../../images/projects/cards/WineApp.jpg';
+import Card3 from '../../images/projects/cards/TravelApp.png';
+import Card4 from '../../images/projects/cards/Card1.png';
 
 
 
 const CardMean = [
     {
         id: 'Card1',
-        title: 'Магазин',
-        subtitle: 'Мобильное приложение',
+        title: 'Сайт онлайн кинотеатра',
+        subtitle: 'Агрегатор контента, предоставляющие возможность просмотра видео как через сайты проектов, так и через приложения сервисов для мобильных платформ и Smart TV.',
         img: Card1,
     },
     {
         id: 'Card2',
-        title: 'Приложение',
-        subtitle: 'Сайт- приложение',
+        title: 'Мобильное приложение WineApp',
+        subtitle: 'Мобильное приложение по подбору вин по критериям и рейтингу. В приложении вы можете по фотографии определить рейтинг напитка. В приложении можно вести дневник с заметками по всем винам. ',
         img: Card2,
     },
     {
         id: 'Card3',
         title: 'Социальная сеть & месседжер',
-        subtitle: 'Мобильное приложение',
+        subtitle: 'Мобильное приложение для туристов. Позволяет определиться с местом и временем путешествия. Через него вы можетн забронировать отель, купить билеты на самолет или поезд, записаться на экскурсии.',
         img: Card3,
     },
     {

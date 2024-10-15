@@ -1,17 +1,20 @@
-import '../Header/style.css'
+import '../Header/style.css';
+import { CardMean } from '../../components/helpers/cardhelpers';
+
+import { NavLink } from 'react-router-dom';
 const Header = () => {
     return ( 
         
             <div className="nav-content">
                 <nav className="nav">
                     <ul>
-                        <li>Home</li>
+                        <NavLink to="/"><li>Главная</li></NavLink>
                         <div className="li-prj">
-                            <span>20</span>    
-                            <li>Projects</li>
+                            <span className='card-count'>{CardMean.length}</span>    
+                            <NavLink to="/myProjects"><li>Проекты</li></NavLink>
                         </div>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li>Обо мне</li>
+                        <li>Контакты</li>
                     </ul>
                 </nav>
             </div>

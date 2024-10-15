@@ -1,6 +1,8 @@
 import './style.css'
 import Arrow from '../../images/projects/arrow.svg';
 import Cards from './Cards/Cards';
+import { CardMean } from '../../components/helpers/cardhelpers';
+
 const Projects = () => {
     return ( 
         <section className="projects" id='projects'>
@@ -17,7 +19,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="projects-cards">
-                <Cards/>
+                <div className="cards" key={id}>        
+                    {CardMean.slice(0, 4).map(cardProject => <Cards {...cardProject}/>)}
+                </div>
             </div>
         </section>
      );

@@ -25,7 +25,7 @@
   color: #000;
   background: #C4C4C4;
   border-radius: 100px;
-  padding: 5px;
+  padding: 2px 8px;
 }
 .nav-content .nav ul .li-prj:hover {
   border-radius: 100px;
@@ -38,7 +38,7 @@
   font-size: 1.25rem;
   list-style-type: none;
 }
-.nav-content .nav ul li:hover {
+.nav-content .nav ul li:hover, .nav-content .nav ul li:active {
   border-radius: 100px;
   background: #fff;
   color: #000;

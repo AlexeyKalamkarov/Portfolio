@@ -34,4 +34,9 @@
 }
 .projects .projects-subtitle-more .more p {
   font-weight: 700;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

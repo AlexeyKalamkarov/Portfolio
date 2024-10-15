@@ -1,21 +1,18 @@
 import { CardMean } from '../../../components/helpers/cardhelpers';
 import './style.css';
-const Cards = () => {
-    const CardItem = CardMean.map(cardProject =>
-        <div className="project-card" key = {CardMean.id}>
+const Cards = ({id, img, title, subtitle}) => {
+    return ( 
+
+        <div className="project-card" key = {id}>
             <div className="card-image">
-                <img src={cardProject.img} alt="" />
+                <img src={img} alt="" />
             </div>
             <div className="card-description">
-                <b>{cardProject.title}</b>
-                <p>{cardProject.subtitle}</p>
+                <b>{title}</b>
+                <p>{subtitle}</p>
             </div>
         </div>
-    )
-    return ( 
-        <div className="cards">
-            {CardItem}
-        </div>
+    
      );
 }
  
