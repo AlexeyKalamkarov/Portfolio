@@ -7,7 +7,7 @@ import { CardMean } from '../../components/helpers/cardhelpers';
 
 const  Project= () => {
     return ( 
-            <section className="projects" key={CardMean.toString()}>
+            <section className="projects">
                 <div className="project-title">
                     <div className="project-subtitle-description">
                         <h2>Мои проекты</h2>
@@ -15,7 +15,7 @@ const  Project= () => {
                 </div>
                 <div className="projects-cards">
                     <div className="cards">        
-                        {CardMean.map(cardProject => <Cards {...cardProject}/>)}
+                        {CardMean.map((cardProject, index) => <Cards key={index} {...cardProject}/>)}
                     </div>
                 </div>
             </section>

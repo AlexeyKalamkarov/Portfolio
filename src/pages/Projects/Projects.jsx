@@ -19,8 +19,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className="projects-cards">
-                <div className="cards" key={id}>        
-                    {CardMean.slice(0, 4).map(cardProject => <Cards {...cardProject}/>)}
+                <div className="cards" >        
+                    {CardMean.slice(0, 4).map((cardProject, index) => <Cards key={index} {...cardProject}/>)}
                 </div>
             </div>
         </section>
