@@ -13,7 +13,7 @@ const Header = () => {
                             <span className='card-count'>{CardMean.length}</span>    
                             <NavLink to="/myProjects"><li>Проекты</li></NavLink>
                         </div>
-                        <li>Обо мне</li>
+                        <NavLink to="/About"><li>Обо мне</li></NavLink>
                         <li>Контакты</li>
                     </ul>
                 </nav>

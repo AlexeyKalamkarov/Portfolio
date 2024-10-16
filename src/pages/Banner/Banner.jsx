@@ -1,4 +1,5 @@
 import './style.css'
+import Projects from '../Projects/Projects';
 const Banner = () => {
     return ( 
         
@@ -8,7 +9,7 @@ const Banner = () => {
                         <h1>frontend development</h1>
                     </div>
                     <section class="banner-subtitle2">
-                        <div>scroll down </div>
+                        <div id='scrollButton' onClick={scrollButton}>scroll down </div>
                     </section>
                 </div>
                 <div className="banner-title2">
@@ -17,11 +18,23 @@ const Banner = () => {
                         <p><a href="mailto:kalamkarovalexey@gmail.com">kalamkarovalexey@gmail.com</a></p>
                     </div>
                     <div className="banner-subtitle4">
-                        <p>Привет, я Джоуи, дизайнер цифровых продуктов, специализирующийся на брендинге, маркетинге и инструментах без кода.</p>
+                        <p>Привет! Меня зовут Алексей, я из Москвы.
+                        В настоящее время я работаю frontend-разработчиком До этого работал инженером АСУ ТП и информационной безопасности АСУ ТП, некоторое время занимался проектированием дизайна интерфейсов, поэтому сейчас изучаю Frontend разработку. Помимо работы, увлекаюсь настольными играми, автомобилями и музыкой. Всегда открыт к новым приключениям и возможностям для роста.</p>
                     </div>
                 </div>
             </section>
      );
 }
- 
 export default Banner;
+
+function scrollButton() {
+    
+    setTimeout(() => {
+        const projectForm = document.querySelector('#projects');
+    
+        projectForm.scrollIntoView({
+            block: 'nearest', // к ближайшей границе экрана
+            behavior: 'smooth',
+        })
+    }, 100);
+};

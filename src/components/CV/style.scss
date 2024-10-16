@@ -1,0 +1,45 @@
+.cv {
+    display: flex;
+    justify-content: center;
+    .cv-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 155px;
+        border: 1px #fff solid;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 80px;
+        gap: 30px;
+        h2 {
+            text-align: center;
+        }
+        b {
+            font-size: 1.25rem;
+            color: #fff;
+            font-style: italic;
+
+        }
+        .cv-button {
+            background-color: rgba(28,28,28,0);
+            border: 1px #fff solid;
+            border-radius: 15px;
+            padding: 11px 63px;
+            font-size: 1.25rem;
+            color: #fff;
+            font-family: "Open Sans", sans-serif;
+            cursor: pointer;
+        
+        }
+        .cv-icon {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            margin-top: 20px;
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+}

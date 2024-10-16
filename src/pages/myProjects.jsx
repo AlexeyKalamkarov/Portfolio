@@ -8,8 +8,6 @@ const MyProjects = () => {
     
     return ( 
         <div className="container">
-            {/* <Banner/> */}
-            {/* <Projects/> */}
             <Project/>
         </div>
      );

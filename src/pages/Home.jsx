@@ -4,6 +4,7 @@ import Projects from "../pages/Projects/Projects";
 import Footer from "../components/Footer/Footer";
 import Project from "./Project/Project";
 
+
 const Home = () => {
     
     return ( 
