@@ -34,6 +34,16 @@
   font-size: 1.25rem;
   padding: 20px 40px;
   border-radius: 80px;
+  border: 1px #fff solid;
+  cursor: pointer;
+}
+.banner .banner-title1 .banner-subtitle2 div:hover {
+  background-color: #fff;
+  color: #141414;
+  font-size: 1.25rem;
+  padding: 20px 40px;
+  border-radius: 80px;
+  border: 1px #fff solid;
   cursor: pointer;
 }
 .banner .banner-title2 {
@@ -41,6 +51,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+}
+.banner .banner-title2 p {
+  font-style: italic;
 }
 .banner .banner-title2 .banner-subtitle3 b {
   color: #fff;

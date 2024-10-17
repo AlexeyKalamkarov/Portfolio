@@ -8,7 +8,7 @@ const Cards = ({id, img, title, subtitle, icon, path}) => {
             <div className="card-image">
                 <img src={img} alt="" />
                 <div className="overlay">
-                <a href={path} class="icon">
+                <a href={path} className="icon">
                     <img src={icon} alt="" />
                 </a>
                 </div>
