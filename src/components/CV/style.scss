@@ -42,4 +42,9 @@
             }
         }
     }
+    @media only screen and (max-width: 450px) {
+        .cv-card {
+            padding: 20px 50px;
+        }
+    }
 }

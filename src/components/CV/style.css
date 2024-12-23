@@ -40,4 +40,9 @@
 }
 .cv .cv-card .cv-icon img {
   cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+  .cv .cv-card {
+    padding: 20px 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

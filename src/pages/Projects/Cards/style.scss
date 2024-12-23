@@ -71,4 +71,25 @@
             font-style: italic;
         }
     }
+    @media only screen and (max-width: 768px) {
+            .card-image {
+                height: 250px;
+            }
+            .card-description {
+                p {
+                    font-size: 0.875rem;
+                }
+            }
+    }
+}
+    
+@media only screen and (max-width: 450px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 32px;
+        grid-row-gap: 50px;
+    
+    }
 }

@@ -15,6 +15,14 @@
 .projects .projects-title .projects-subtitle-description p {
   margin-top: 11px;
 }
+@media only screen and (max-width: 450px) {
+  .projects .projects-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
 .projects .projects-subtitle-more {
   display: flex;
   flex-wrap: nowrap;
