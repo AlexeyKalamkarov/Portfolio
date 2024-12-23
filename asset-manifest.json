@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d75428c0.css",
-    "main.js": "/Portfolio/static/js/main.c78e747f.js",
+    "main.js": "/Portfolio/static/js/main.22c23143.js",
     "static/media/TravelApp.png": "/Portfolio/static/media/TravelApp.0bd23f2cf2ae0597aed7.png",
     "static/media/WineApp.jpg": "/Portfolio/static/media/WineApp.ea6c8e8bb33476352b75.jpg",
     "static/media/Cinema.jpg": "/Portfolio/static/media/Cinema.36e0ad9ec26ff3672722.jpg",
@@ -16,10 +16,10 @@
     "static/media/facebook.svg": "/Portfolio/static/media/facebook.f5e72af41b77f7d91c6f9e01a26665cf.svg",
     "index.html": "/Portfolio/index.html",
     "main.d75428c0.css.map": "/Portfolio/static/css/main.d75428c0.css.map",
-    "main.c78e747f.js.map": "/Portfolio/static/js/main.c78e747f.js.map"
+    "main.22c23143.js.map": "/Portfolio/static/js/main.22c23143.js.map"
   },
   "entrypoints": [
     "static/css/main.d75428c0.css",
-    "static/js/main.c78e747f.js"
+    "static/js/main.22c23143.js"
   ]
 }
