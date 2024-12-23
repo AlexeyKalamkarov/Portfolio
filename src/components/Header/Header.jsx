@@ -8,7 +8,7 @@ const Header = () => {
             <div className="nav-content">
                 <nav className="nav">
                     <ul>
-                        <NavLink to="/"><li>Главная</li></NavLink>
+                        <NavLink to="/Portfolio"><li>Главная</li></NavLink>
                         <div className="li-prj">
                             <span className='card-count'>{CardMean.length}</span>    
                             <NavLink to="/myProjects"><li>Проекты</li></NavLink>
