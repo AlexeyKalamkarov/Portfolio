@@ -13,19 +13,19 @@ const Footer = () => (
         <h3>social</h3>
         <div className="footer-social">
             <div className="social-icon">
-                <a href='/#'><img src={Instagram} alt="" /></a>
+                <a href='https://www.instagram.com/alexeyk_47/profilecard/?igsh=bnRtMXhscTMxZzlj'><img src={Instagram} alt="" /></a>
             </div>
             <div className="social-icon">
                 <a><img src={Facebook} alt="" /></a>
             </div>
             <div className="social-icon">
-                <a><img src={Linkedin} alt="" /></a>
+                <a href='https://www.linkedin.com/in/alekseykalamkarov/'><img src={Linkedin} alt="" /></a>
             </div>
             <div className="social-icon">
-                <a><img src={Vk} alt="" /></a>
+                <a href='vk.com/alexeykalamkarov'><img src={Vk} alt="" /></a>
             </div>
             <div className="social-icon">
-                <a><img src={Telegramm} alt="" /></a>
+                <a href='@AlexeyKalamkarov'><img src={Telegramm} alt="" /></a>
             </div>
         </div>
         <div className=""></div>

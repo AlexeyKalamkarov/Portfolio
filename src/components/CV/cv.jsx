@@ -2,18 +2,18 @@ import '../CV/style.css';
 import Linkedin from '../../images/footer/linkedin.svg';
 import Behance from '../../images/footer/behance.svg';
 import Git from '../../images/cards/git.svg';
-
+import CVdoc from '../../../src/CV.pdf'
 const CallingCard = () => {
     return ( 
         <section className="cv">
             <div className="cv-card">
                 <h2>Каламкаров Алексей</h2>
                 <b>Frontend developer</b>
-                <button className="cv-button">Резюме</button>
+                <a href={CVdoc}><button className="cv-button">Резюме</button></a>
                 <div className="cv-icon">
-                    <img src={Git} alt="" />
-                    <img src={Linkedin} alt="" />
-                    <img src={Behance} alt="" />
+                    <a href='https://github.com/AlexeyKalamkarov'><img src={Git} alt="" /></a>
+                    <a href='https://www.linkedin.com/in/alekseykalamkarov/'><img src={Linkedin} alt="" /></a>
+                    <a href='https://www.behance.net/alexeykalamkarov'><img src={Behance} alt="" /></a>
                 </div>
             </div>
         </section>
