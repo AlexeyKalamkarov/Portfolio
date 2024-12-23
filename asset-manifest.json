@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d75428c0.css",
+    "main.js": "/Portfolio/static/js/main.c78e747f.js",
+    "static/media/TravelApp.png": "/Portfolio/static/media/TravelApp.0bd23f2cf2ae0597aed7.png",
+    "static/media/WineApp.jpg": "/Portfolio/static/media/WineApp.ea6c8e8bb33476352b75.jpg",
+    "static/media/Cinema.jpg": "/Portfolio/static/media/Cinema.36e0ad9ec26ff3672722.jpg",
+    "static/media/TODO.png": "/Portfolio/static/media/TODO.9eb378d0efc6782adab8.png",
+    "static/media/instagramm.svg": "/Portfolio/static/media/instagramm.d3ef84acf358ce7aa01ba1351d40754c.svg",
+    "static/media/behance.svg": "/Portfolio/static/media/behance.317bbdfbb2302d83ec227b1cdb401a9d.svg",
+    "static/media/git.svg": "/Portfolio/static/media/git.eac35e32740b1643b0322372f0d4cf15.svg",
+    "static/media/arrow.svg": "/Portfolio/static/media/arrow.4bf24dc383d875aa4455899f04946e6a.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.6a73340d6822c7a052895fe04e3ef8ba.svg",
+    "static/media/vk.svg": "/Portfolio/static/media/vk.ae87ffd3ffedf670fb7e770db2626eaa.svg",
+    "static/media/telegramm.svg": "/Portfolio/static/media/telegramm.ac76787a9260dbb296cdabd3ab86e007.svg",
+    "static/media/facebook.svg": "/Portfolio/static/media/facebook.f5e72af41b77f7d91c6f9e01a26665cf.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.d75428c0.css.map": "/Portfolio/static/css/main.d75428c0.css.map",
+    "main.c78e747f.js.map": "/Portfolio/static/js/main.c78e747f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d75428c0.css",
+    "static/js/main.c78e747f.js"
+  ]
+}
