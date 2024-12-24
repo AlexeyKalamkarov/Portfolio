@@ -22,7 +22,7 @@ const Projects = () => {
             </div>
             <div className="projects-cards">
                 <div className="cards" >        
-                    {CardMean.slice(0, 4).map((cardProject, index) => <Cards key={index} {...cardProject}/>)}
+                    {CardMean.slice(0, 3).map((cardProject, index) => <Cards key={index} {...cardProject}/>)}
                 </div>
             </div>
         </section>

@@ -20,23 +20,22 @@
   -moz-column-gap: 4px;
        column-gap: 4px;
   align-items: center;
+  border-radius: 100px;
 }
 .nav-content .nav ul .li-prj span {
   color: #000;
   background: #C4C4C4;
   border-radius: 100px;
   padding: 2px 8px;
-}
-.nav-content .nav ul .li-prj:hover {
   border-radius: 100px;
-  background: #fff;
-  color: #000;
 }
 .nav-content .nav ul li {
+  border-radius: 100px;
   padding: 20px 25px;
   color: #C4C4C4;
   font-size: 1.25rem;
   list-style-type: none;
+  transition: 1.5s;
 }
 .nav-content .nav ul li:hover, .nav-content .nav ul li:active {
   border-radius: 100px;

@@ -16,5 +16,9 @@
   gap: 10px;
 }
 .footer .footer-social .social-icon {
+  transition: transform 0.5s;
   cursor: pointer;
+}
+.footer .footer-social .social-icon:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=style.css.map */

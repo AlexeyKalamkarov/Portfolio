@@ -15,7 +15,11 @@
         flex-direction: row;
         gap: 10px;
         .social-icon {
+            transition: transform 0.5s;
             cursor: pointer;
+        }
+        .social-icon:hover {
+            transform: scale(1.2);
         }
     }
 }

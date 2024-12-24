@@ -7,9 +7,9 @@ const CallingCard = () => {
     return ( 
         <section className="cv">
             <div className="cv-card">
-                <h2>Каламкаров Алексей</h2>
+                <h2>Каламкаров Алексей(Alexey Kalamkarov)</h2>
                 <b>Frontend developer</b>
-                <a href={CVdoc}><button className="cv-button">Резюме</button></a>
+                <a href={CVdoc}><button className="cv-button">Резюме/CV</button></a>
                 <div className="cv-icon">
                     <a href='https://github.com/AlexeyKalamkarov'><img src={Git} alt="" /></a>
                     <a href='https://www.linkedin.com/in/alekseykalamkarov/'><img src={Linkedin} alt="" /></a>

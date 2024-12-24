@@ -2,9 +2,12 @@ import '../src/main.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
-import { BrowserRouter as  Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as  Router, Routes, Route, useLocation, useOutlet,} from 'react-router-dom';
 import MyProjects from './pages/myProjects';
 import Contacts from './pages/Contacts';
+import { CSSTransition, SwitchTransition } from 'react-transition-group';
+
+
 
 function App() {
   return (

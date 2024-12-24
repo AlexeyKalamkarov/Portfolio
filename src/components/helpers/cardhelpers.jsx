@@ -1,6 +1,7 @@
 import Cinema from '../../images/projects/cards/Cinema.jpg';
 import WineApp from '../../images/projects/cards/WineApp.jpg';
 import TravelApp from '../../images/projects/cards/TravelApp.png';
+import GPI1 from '../../images/projects/cards/GPI1.png';
 import TODO from '../../images/projects/cards/TODO.png';
 import Behance from '../../images/cards/behance.svg'
 import Git from '../../images/cards/git.svg';
@@ -41,38 +42,14 @@ const CardMean = [
         path: 'https://github.com/AlexeyKalamkarov/TODO'
     },
     {
-        id: 'Card5',
-        title: 'Магазин',
-        subtitle: 'Мобильное приложение',
-        img: Cinema,
-        icon: Behance,
-        path: ''
-    },
-    {
         id: 'Card6',
-        title: 'Приложение',
-        subtitle: 'Сайт- приложение',
-        img: WineApp,
-        icon: Behance,
-        path: ''
+        title: 'Web-site',
+        subtitle: 'Сайт организации ООО Газпром информ',
+        img: GPI1,
+        icon: Git,
+        path: 'https://github.com/AlexeyKalamkarov/GPI-SITE'
     },
-    {
-        id: 'Card7',
-        title: 'Социальная сеть & месседжер',
-        subtitle: 'Мобильное приложение',
-        img: TravelApp,
-        icon: Behance,
-        path: ''
-    },
-    {
-        id: 'Card8',
-        title: 'Приложение на планшет',
-        subtitle: 'Мобильное приложение',
-        img: TODO,
-        icon: Behance,
-        path: ''
-    },
-
+    
 ]
 
 export {CardMean};

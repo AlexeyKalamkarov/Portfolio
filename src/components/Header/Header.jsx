@@ -34,7 +34,7 @@ const Header = () => {
                         <NavLink onClick={handleItemClick} to="/Portfolio"><li onClick={handleItemClick}>Главная</li></NavLink>
                         <div className="li-prj">
                             <span className='card-count'>{CardMean.length}</span>    
-                            <NavLink onClick={handleItemClick} to="/myProjects"><li onClick={handleItemClick}>Проекты</li></NavLink>
+                            <NavLink onClick={handleItemClick} to="/myProjects"><li  onClick={handleItemClick}>Проекты</li></NavLink>
                         </div>
                         <NavLink><li onClick={handleItemClick}>Обо мне</li></NavLink>
                         <NavLink onClick={handleItemClick} to="/About"><li onClick={handleItemClick}>Контакты</li></NavLink>
