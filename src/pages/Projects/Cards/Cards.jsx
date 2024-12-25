@@ -1,6 +1,5 @@
 import { CardMean } from '../../../components/helpers/cardhelpers';
 import './style.css';
-import Behance from '../../../images/cards/behance.svg';
 const Cards = ({id, img, title, subtitle, icon, path}) => {
     return ( 
 

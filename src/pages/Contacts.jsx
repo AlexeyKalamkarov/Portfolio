@@ -1,4 +1,4 @@
-import CallingCard from "../components/CV/cv";
+import CallingCard from "../components/CV/CallingCard";
 
 const About = () => {
     return ( 

@@ -1,5 +1,4 @@
 import '../Projects/style.css';
-import Arrow from '../../images/projects/arrow.svg';
 import Cards from '../Projects/Cards/Cards';
 import { CardMean } from '../../components/helpers/cardhelpers';
 

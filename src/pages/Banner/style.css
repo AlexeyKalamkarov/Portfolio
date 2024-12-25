@@ -73,7 +73,7 @@
 .banner .banner-title2 .banner-subtitle4 {
   max-width: 500px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   .banner .banner-title1 .banner-subtitle1 h1 {
     font-size: 4.25rem;
   }

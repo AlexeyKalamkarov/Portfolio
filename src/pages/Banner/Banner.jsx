@@ -1,5 +1,4 @@
 import './style.css'
-import Projects from '../Projects/Projects';
 
 const Banner = () => {
     return ( 

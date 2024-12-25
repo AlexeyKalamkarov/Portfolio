@@ -14,7 +14,6 @@
                     color: #fff;
                     text-transform: uppercase;
                     font-weight: 900;
-                    // line-height: 2em;
                 }
             }
             .banner-subtitle2 {
@@ -43,7 +42,6 @@
                     border-radius: 80px;
                     border: 1px #fff solid;
                     cursor: pointer;
-
                 }
             }
         }
@@ -56,14 +54,11 @@
             p {
                 font-style: italic;
             }
-            
             .banner-subtitle3 {
-                
                 b {
                     color: #fff;
                     font-weight: 700;
                     font-size: 1.25rem;
-
                 }
                 p {
                     margin-top: 9px;
@@ -79,53 +74,53 @@
                 max-width: 500px;                                      
             }
         }
-        @media only screen and (max-width: 768px) {
-            .banner-title1 {
-                .banner-subtitle1 {
-                    h1 {
-                        font-size: 4.25rem;
-                    }
+    @media only screen and (max-width: 820px) {
+        .banner-title1 {
+            .banner-subtitle1 {
+                h1 {
+                    font-size: 4.25rem;
                 }
             }
-            .banner-title2 {
-                gap: 100px;
-            }
+        }
+        .banner-title2 {
+            gap: 100px;
+        }
     }
-        @media only screen and (max-width: 450px) {
-            .banner-title1 {
-                .banner-subtitle1 {
-                    h1 {
-                        font-size: 1.25rem;
-                    }
-                }
-                .banner-subtitle2 {
-                    div {
-                        font-size: 0.875rem;
-                        padding: 10px 20px;
-                    }
-                    div:hover {
-                        font-size: 0.875rem;
-                        padding: 10px 20px;
-                    }
-                    
+    @media only screen and (max-width: 450px) {
+        .banner-title1 {
+            .banner-subtitle1 {
+                h1 {
+                    font-size: 1.25rem;
                 }
             }
-            .banner-title2 {
-                gap: 10px;
+            .banner-subtitle2 {
+                div {
+                    font-size: 0.875rem;
+                    padding: 10px 20px;
+                }
+                div:hover {
+                    font-size: 0.875rem;
+                    padding: 10px 20px;
+                }
+                
+            }
+        }
+        .banner-title2 {
+            gap: 10px;
+            p {
+                font-size: 0.75rem;
+            }
+            .banner-subtitle3 {
+                b {
+                    font-size: 0.875rem;
+                }
                 p {
-                    font-size: 0.75rem;
-                }
-                .banner-subtitle3 {
-                    b {
-                        font-size: 0.875rem;
-                    }
-                    p {
 
-                        a {
-                            font-size: 0.75rem;
-                        }
+                    a {
+                        font-size: 0.75rem;
                     }
                 }
             }
+        }
     }
 }

@@ -22,10 +22,10 @@ const Footer = () => (
                 <a href='https://www.linkedin.com/in/alekseykalamkarov/'><img src={Linkedin} alt="" /></a>
             </div>
             <div className="social-icon">
-                <a href='vk.com/alexeykalamkarov'><img src={Vk} alt="" /></a>
+                <a href='https://vk.com/alexeykalamkarov'><img src={Vk} alt="" /></a>
             </div>
             <div className="social-icon">
-                <a href='@AlexeyKalamkarov'><img src={Telegramm} alt="" /></a>
+                <a href='https://t.me/AlexeyKalamkarov'><img src={Telegramm} alt="" /></a>
             </div>
         </div>
         <div className=""></div>

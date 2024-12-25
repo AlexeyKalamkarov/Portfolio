@@ -70,7 +70,7 @@
     display: block;
   }
   .nav-content .dropdown-menu .dropdown-content {
-    background-color: #141414;
+    background-color: #000;
     width: 100%;
     display: flex;
     flex-direction: column;
