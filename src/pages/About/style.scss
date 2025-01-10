@@ -1,0 +1,86 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    .about-section1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 62px;
+        .about-section1-left-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+            .h2-about {
+                font-weight: 200;
+            }
+            p {
+                text-align: justify;
+            }
+        }
+        .about-section1-right-content {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 80px;
+            row-gap: 60px;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    .about-section2 {
+        display: flex;
+        justify-content: center;
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 32px;
+            width: 40%;
+            border: 0.5px #ffffff solid;
+            padding: 48px;
+            fieldset {
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    input {
+                        width: 100%;
+                        border: 0.5px #ffffff solid;
+                        color: #ffffff;
+                        font-size: 1rem;
+                        height: 50px;
+                        padding-left: 24px;
+                    }
+                    textarea {
+                        width: 100%;
+                        border: 0.5px #ffffff solid;
+                        color: #ffffff;
+                        font-size: 1rem;
+                        padding-left: 24px;
+                        padding-top: 10px;
+                    }
+                    input::placeholder, textarea::placeholder {
+                        padding-left: 24px;
+                        margin-top: 16px;
+                        padding-bottom: 16px;
+                      }
+                      button {
+                        width: 100%;
+                        font-family: "Open Sans", sans-serif;
+                        font-size: 1rem;
+                        font-weight: 200;
+                        color: #0E0E0E;
+                        background-color: #ffffff;
+                        border: 1px #ffffff solid;
+                        padding: 10px 0;
+                      }
+                }
+            }
+        }
+    }
+}

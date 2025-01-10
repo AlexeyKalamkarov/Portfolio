@@ -1,5 +1,6 @@
 @import url(./pages/Banner/style.css);
 @import url(./components/Header/style.css);
+@import url(./pages/About/style.css);
 @import url(../src/reset.css);
 * {
     box-sizing: border-box;
@@ -27,4 +28,9 @@ h3 {
     font-size: 2rem;
     color: #fff;
     font-weight: 700;
+}
+h4 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
 }

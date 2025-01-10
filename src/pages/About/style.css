@@ -1,0 +1,90 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.about .about-section1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 62px;
+}
+.about .about-section1 .about-section1-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.about .about-section1 .about-section1-left-content .h2-about {
+  font-weight: 200;
+}
+.about .about-section1 .about-section1-left-content p {
+  text-align: justify;
+}
+.about .about-section1 .about-section1-right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  row-gap: 60px;
+}
+.about .about-section1 .about-section1-right-content img {
+  width: 100px;
+  height: 100px;
+}
+.about .about-section2 {
+  display: flex;
+  justify-content: center;
+}
+.about .about-section2 .contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  width: 40%;
+  border: 0.5px #ffffff solid;
+  padding: 48px;
+}
+.about .about-section2 .contact-form fieldset form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about .about-section2 .contact-form fieldset form input {
+  width: 100%;
+  border: 0.5px #ffffff solid;
+  color: #ffffff;
+  font-size: 1rem;
+  height: 50px;
+  padding-left: 24px;
+}
+.about .about-section2 .contact-form fieldset form textarea {
+  width: 100%;
+  border: 0.5px #ffffff solid;
+  color: #ffffff;
+  font-size: 1rem;
+  padding-left: 24px;
+  padding-top: 10px;
+}
+.about .about-section2 .contact-form fieldset form input::-moz-placeholder, .about .about-section2 .contact-form fieldset form textarea::-moz-placeholder {
+  padding-left: 24px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+.about .about-section2 .contact-form fieldset form input::placeholder, .about .about-section2 .contact-form fieldset form textarea::placeholder {
+  padding-left: 24px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+.about .about-section2 .contact-form fieldset form button {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #0E0E0E;
+  background-color: #ffffff;
+  border: 1px #ffffff solid;
+  padding: 10px 0;
+}/*# sourceMappingURL=style.css.map */
